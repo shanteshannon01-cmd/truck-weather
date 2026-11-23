@@ -28,7 +28,7 @@ async function getWeather() {
 
   const time = document.createElement("p");
   time.className = "fs-4";
-  time.textContent = "Time: " + new Date(data.current.time).toLocaleString();
+  time.textContent = "Time: " + new Date(data.current.time).toLocaleString() + " " + data.timezone;
   weatherArea.appendChild(time);
 }
 button.addEventListener("click", getWeather);
