@@ -1,4 +1,4 @@
-const url = "https://api.open-meteo.com/v1/forecast?latitude=35.22709&longitude=-80.84313&current=temperature_2m,wind_speed_10m&temperature_unit=fahrenheit";
+const url= "https://api.open-meteo.com/v1/forecast?latitude=35.22709&longitude=-80.84313&current=temperature_2m,is_day,wind_speed_10m&timezone=auto&wind_speed_unit=mph&temperature_unit=fahrenheit";
 const button = document.getElementById("check-btn");
 const weatherArea = document.getElementById("weather");
 
